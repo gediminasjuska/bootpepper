@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <script defer src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Raleway&display=swap" rel="stylesheet">
+    <title>BootPepper</title>
+  </head>
+  <body>
+    <!-- Header------------------------------- -->
+    <header class="d-flex align-center justify-between">
+      <div class="logo d-flex align-center justify-between padding-l-50">
+        <i class="fas fa-pepper-hot pepper"></i>
+        <h1 class="logo-name">BootPepper</h1>
+      </div>
+      <div class="github padding-r-50 text-size-18 d-flex align-center">
+        <a href="https://gediminasjuska.github.io/" class="text-black mar">
+          <span>Open in github</span>
+          <i class="fab fa-github git"></i>
+        </a>
+        <div class="menu-icon-mobile" id="menu-bar">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+      
+    </header>
+    
+    <main class="d-grid">
+      <!-- scroll to top btn -->
+    <div
+    class="scroll-to-top align-center justify-center cursor-pointer"
+  >
+    <i class="fas fa-arrow-up"></i>
+  </div>
+      <!-- Navigation-left ----------------- -->
+      <div class="navbar-left d-flex flex-column padding-l-80">
+        <div class="components-open cursor-pointer" id="open-close">
+          <i class="fas fa-chevron-right margin-r-8 components-icon"></i
+          >Components
+        </div>
+        <div class="margin-l-20">
+          <ul class="nav-content">
+            <li class="li"><a href="#alerts" class="text-black">Alerts </a></li>
+            <li class="li">
+              <a href="#buttons" class="text-black">Buttons</a>
+            </li>
+            <li class="li"><a href="#cards" class="text-black">Cards</a></li>
+            <li class="li"><a href="#list" class="text-black">Lists</a></li>
+            <li class="li"><a href="#navbar" class="text-black">Navbars</a></li>
+            <li class="li"><a href="#input" class="text-black">Inputs</a></li>
+            <li class="li">
+              <a href="#pagination" class="text-black">Pagination</a>
+            </li>
+            <li class="li">
+              <a href="#progress-bar" class="text-black">Progress bars</a>
+            </li>
+            <li class="li">
+              <a href="#spinners" class="text-black">Spinners</a>
+            </li>
+          </ul>
+        </div>
+        <div class="components-open cursor-pointer" id="open-close-2">
+          <i class="fas fa-chevron-right margin-r-8 components-icon-2"></i>Styling
+          & Utilities
+        </div>
+        <div class="margin-l-20">
+          <ul class="nav-content-2">
+            <li class="li"><a href="#padding" class="text-black">Padding</a></li>
+            <li class="li"><a href="#margin" class="text-black">Margin</a></li>
+            <li class="li">
+              <a href="#sizing" class="text-black">Width & Height</a>
+            </li>
+            <li class="li"><a href="#borders" class="text-black">Borders</a></li>
+            <li class="li"><a href="#font-color" class="text-black">Text color</a></li>
+            <li class="li">
+              <a href="#bg-color" class="text-black">Background color</a>
+            </li>
+              <a href="#flex" class="text-black">Flex alignment</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Navigation-mobile ------------------- -->
+      <div class="nav-mobile">
+        <div class="components-open margin-l-20 cursor-pointer" id="open-close-3">
+          <i class="fas fa-chevron-right margin-r-8 components-icon-3"></i
+          >Components
+        </div>
+        <div class="margin-l-20">
+          <ul class="nav-content-3">
+            <li class="li"><a href="#alerts" class="text-black">Alerts </a></li>
+            <li class="li">
+              <a href="#buttons" class="text-black">Buttons</a>
+            </li>
+            <li class="li"><a href="#cards" class="text-black">Cards</a></li>
+            <li class="li"><a href="#list" class="text-black">Lists</a></li>
+            <li class="li"><a href="#navbar" class="text-black">Navbars</a></li>
+            <li class="li"><a href="#input" class="text-black">Inputs</a></li>
+            <li class="li">
+              <a href="#pagination" class="text-black">Pagination</a>
+            </li>
+            <li class="li">
+              <a href="#progress-bar" class="text-black">Progress bars</a>
+            </li>
+            <li class="li">
+              <a href="#spinners" class="text-black">Spinners</a>
+            </li>
+          </ul>
+        </div>
+        <div class="components-open margin-l-20 cursor-pointer" id="open-close-4">
+          <i class="fas fa-chevron-right margin-r-8 components-icon-4"></i>Styling
+          & Utilities
+        </div>
+        <div class="margin-l-20">
+          <ul class="nav-content-4">
+            <li class="li"><a href="#padding" class="text-black">Padding</a></li>
+            <li class="li"><a href="#margin" class="text-black">Margin</a></li>
+            <li class="li">
+              <a href="#sizing" class="text-black">Width & Height</a>
+            </li>
+            <li class="li"><a href="#borders" class="text-black">Borders</a></li>
+            <li class="li"><a href="#font-color" class="text-black">Text color</a></li>
+            <li class="li">
+              <a href="#bg-color" class="text-black">Background color</a>
+            </li>
+              <a href="#flex" class="text-black">Flex alignment</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <section class="padding-lr-100">
+        <h1 class="welcome">Welcome to BootPepper</h1>
+        <p class="text-size-22 margin-l-100">
+          Get started with PepperBoot, the world’s most unpopular framework for
+          building responsive, mobile-first sites.
+        </p>
+        <!-- alerts ------------------- -->
+        <div class="container">
+          <article class="margin-l-100 margin-t-30 margin-r-100" id="alerts">
+            <h2 class="text-size-36">Alerts</h2>
+            <p class="text-size-22 margin-b-29">
+              Provide contextual feedback messages for typical user actions with
+              the handful of available and flexible alert messages.
+            </p>
+            <div class="border-light padding-20 border-radius-4">
+              <div class="alert alert-warning">
+                A simple warning alert - check it out!
+              </div>
+              <div class="alert alert-done">
+                A simple done alert - check it out!
+              </div>
+              <div class="alert alert-info">
+                A simple info alert - check it out!
+              </div>
+              <div class="alert alert-dark">
+                A simple dark alert - check it out!
+              </div>
+            </div>
+            <div class="padding-20 bg-light-gray margin-t-30">
+              <pre>
+            <code>
+&lt;div class="alert alert-warning"&gt;
+A simple warning alert - check it out!
+&lt;/div&gt;
+
+&lt;div class="alert alert-done"&gt;
+A simple done alert - check it out!
+&lt;/div&gt;
+
+&lt;div class="alert alert-info">
+A simple info alert - check it out!
+&lt;/div&gt;
+
+&lt;div class="alert alert-dark"&gt;
+A simple dark alert - check it out!
+&lt;/div&gt;
+            </code>
+        </pre>
+            </div>
+          </article>
+        </div>
+        <!-- Buttons ------------------- -->
+        <div class="container">
+          <article class="margin-l-100 margin-t-30 margin-r-100" id="buttons">
+            <h2 class="text-size-36">Buttons</h2>
+            <p class="text-size-22 margin-b-29">
+              Custom button styles for actions in forms, dialogs, and more with
+              support for multiple sizes, states, and more.
+            </p>
+            
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="btn btn-submit">Submit</div>
+              <div class="btn btn-danger">Danger</div>
+              <div class="btn btn-yellow">Yellow</div>
+              <div class="btn btn-green">Green</div>
+              <div class="btn btn-pink">Pink</div>
+            </div>
+            <div class="padding-20 bg-light-gray margin-t-30">
+              <pre>
+            <code>
+&lt;div class="btn btn-submit"&gt;
+Submit
+&lt;/div&gt;
+&lt;div class="btn btn-danger"&gt;
+Danger
+&lt;/div&gt;
+&lt;div class="btn btn-yellow"&gt;
+Yellow
+&lt;/div&gt;
+&lt;div class="btn btn-green"&gt;
+Green
+&lt;/div&gt;
+&lt;div class="btn btn-pink"&gt;
+Pink
+&lt;/div&gt;
+            </code>
+        </pre>
+            </div>
+          </article>
+        </div>
+        <!-- Cards ------------------------------ -->
+        <div class="container">
+          <article class="margin-l-100 margin-t-30 margin-r-100" id="cards">
+            <h2 class="text-size-36">Cards</h2>
+            <p class="text-size-22 margin-b-29">
+              Cards provide a flexible and extensible content container with
+              multiple variants and options.
+            </p>
+            <!-- Buttons ------------------- -->
+            <div
+              class="border-light padding-20 border-radius-4 d-flex flex-column"
+            >
+              <div class="card-example d-flex align-center">
+                <div class="card-img">
+                  <img
+                    src="https://media.evo.co.uk/image/private/s--tFU_FSEy--/v1594746390/evo/2020/07/Porsche%20911%20GT2%20RS%203D-printed%20pistons%20-2.jpg"
+                    alt="gt2rs"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">Text with image and button</p>
+                    <a href="#"
+                      ><div class="btn btn-submit">Go somewhere</div></a
+                    >
+                  </div>
+                </div>
+                <div class="code bg-light-gray width-436">
+                  <pre class="width-515">
+                <code>
+&lt;div class=&quot;card-img&quot;&gt;
+  &lt;img src=&quot;...&quot; alt=&quot;...&quot;&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;
+      &lt;p class=&quot;card-text&quot;&gt;Text with image and button&lt;/p&gt;
+      &lt;a href=&quot;#&quot;&gt;&lt;div class=&quot;btn btn-submit&quot;&gt;Go somewhere&lt;/div&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+                </code>
+              </pre>
+                </div>
+              </div>
+              <div class="card-example d-flex align-center">
+                <div class="card-img">
+                  <img
+                    src="https://static.autox.com/uploads/2020/06/Lotus-Exige-Sport-410-20th-Anniversary-Edition.jpg"
+                    alt="gt2rs"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">Text with image</p>
+                  </div>
+                </div>
+                <div class="code bg-light-gray width-436">
+                  <pre>
+              <code>
+&lt;div class=&quot;card-img&quot;&gt;
+  &lt;img src=&quot;...&quot; alt=&quot;...&quot;&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;
+    &lt;p class=&quot;card-text&quot;&gt;Text with image and button&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+              </code>
+            </pre>
+                </div>
+              </div>
+              <div class="card-example d-flex align-center">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">Text with text</p>
+                  </div>
+                </div>
+                <div class="code bg-light-gray height-280 width-436">
+                  <pre class="width-330">
+            <code>
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;
+    &lt;p class=&quot;card-text&quot;&gt;Text with text&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+            </code>
+          </pre>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!-- List items ------------------- -->
+        <div class="container">
+          <article class="margin-l-100 margin-t-30 margin-r-100" id="list">
+            <h2 class="text-size-36">List items</h2>
+            <p class="text-size-22 margin-b-29">
+              List groups are a flexible and powerful component for displaying a
+              series of content.
+            </p>
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="list">
+                <ul>
+                  <li class="list-item">Text one</li>
+                  <li class="list-item">Text two</li>
+                  <li class="list-item">Text three</li>
+                  <li class="list-item">Text four</li>
+                  <li class="list-item">Text five</li>
+                </ul>
+              </div>
+            </div>
+            <div class="bg-light-gray margin-t-30">
+              <pre class="width-330">
+          <code>
+&lt;div class=&quot;list&quot;&gt;
+  &lt;ul&gt;
+    &lt;li class=&quot;list-item&quot;&gt;Text one&lt;/li&gt;
+      &lt;li class=&quot;list-item&quot;&gt;Text two&lt;/li&gt;
+      &lt;li class=&quot;list-item&quot;&gt;Text three&lt;/li&gt;
+      &lt;li class=&quot;list-item&quot;&gt;Text four&lt;/li&gt;
+      &lt;li class=&quot;list-item&quot;&gt;Text five&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+          </code>
+      </pre>
+            </div>
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="list">
+                <ul>
+                  <a href="#" class="list-link">Text one</a>
+                  <a href="#" class="list-link">Text two</a>
+                  <a href="#" class="list-link">Text three</a>
+                  <a href="#" class="list-link">Text four</a>
+                  <a href="#" class="list-link">Text five</a>
+                </ul>
+              </div>
+            </div>
+            <div class="bg-light-gray margin-t-30">
+              <pre class="width-330">
+      <code>
+&lt;div class=&quot;list&quot;&gt;
+  &lt;ul&gt;
+    &lt;a href=&quot;#&quot; class=&quot;list-link&quot;&gt;Text one&lt;/a&gt;
+    &lt;a href=&quot;#&quot; class=&quot;list-link&quot;&gt;Text two&lt;/a&gt;
+    &lt;a href=&quot;#&quot; class=&quot;list-link&quot;&gt;Text three&lt;/a&gt;
+    &lt;a href=&quot;#&quot; class=&quot;list-link&quot;&gt;Text four&lt;/a&gt;
+    &lt;a href=&quot;#&quot; class=&quot;list-link&quot;&gt;Text five&lt;/a&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+      </code>
+  </pre>
+            </div>
+          </article>
+        </div>
+        <!-- navbars ------------------------------ -->
+        <div class="container">
+          <article class="margin-l-100 margin-t-30 margin-r-100" id="navbar">
+            <h2 class="text-size-36">Navbars</h2>
+            <p class="text-size-22 margin-b-29">
+              Having easy-to-use navigation is important for any web site.
+            </p>
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="navbar-simple bg-light-gray">
+                <a href="#" class="navbar-name">Navbar</a>
+                <a href="#" class="navbar-item">Home</a>
+                <a href="#" class="navbar-item">About</a>
+                <a href="#" class="navbar-item">Products</a>
+                <a href="#" class="navbar-item">Contacts</a>
+              </div>
+            </div>
+            <div class="bg-light-gray margin-t-30">
+              <pre class="width-330">
+        <code>
+&lt;div class=&quot;navbar-simple bg-light-gray&quot;&gt;
+  &lt;a href=&quot;#&quot; class=&quot;navbar-name&quot;&gt;Navbar&lt;/a&gt;
+  &lt;a href=&quot;#&quot; class=&quot;navbar-item&quot;&gt;Home&lt;/a&gt;
+  &lt;a href=&quot;#&quot; class=&quot;navbar-item&quot;&gt;About&lt;/a&gt;
+  &lt;a href=&quot;#&quot; class=&quot;navbar-item&quot;&gt;Products&lt;/a&gt;
+  &lt;a href=&quot;#&quot; class=&quot;navbar-item&quot;&gt;Contacts&lt;/a&gt;
+&lt;/div&gt;
+        </code>
+    </pre>
+            </div>
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="navbar-advanced bg-light-gray d-flex justify-between">
+                <div>
+                  <a href="#" class="navbar-name">Navbar</a>
+                  <a href="#" class="navbar-item">Home</a>
+                  <a href="#" class="navbar-item">About</a>
+                  <a href="#" class="navbar-item">Contacts</a>
+                </div>
+                <div class="d-flex align-center">
+                  <input
+                    type="Search"
+                    placeholder="Search"
+                    class="input-search"
+                  />
+                  <div class="btn-search outline-green">Search</div>
+                </div>
+              </div>
+            </div>
+            <div class="bg-light-gray margin-t-30">
+              <pre class="width-490">
+  <code>
+  &lt;div class=&quot;navbar-advanced bg-light-gray d-flex justify-between&quot;&gt;
+    &lt;div&gt;
+      &lt;a href=&quot;#&quot; class=&quot;navbar-name&quot;&gt;Navbar&lt;/a&gt;
+      &lt;a href=&quot;#&quot; class=&quot;navbar-item&quot;&gt;Home&lt;/a&gt;
+      &lt;a href=&quot;#&quot; class=&quot;navbar-item&quot;&gt;About&lt;/a&gt;
+      &lt;a href=&quot;#&quot; class=&quot;navbar-item&quot;&gt;Contacts&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;d-flex align-center&quot;&gt;
+      &lt;input type=&quot;Search&quot; placeholder=&quot;Search&quot; class=&quot;search&quot;&gt;
+      &lt;div class=&quot;btn-search outline-green&quot;&gt;Search&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  </code>
+  </pre>
+            </div>
+          </article>
+        </div>
+        <!-- Inputs ---------------------------------- -->
+        <div class="container">
+          <article class="margin-l-100 margin-t-30 margin-r-100" id="input">
+            <h2 class="text-size-36">Inputs</h2>
+            <p class="text-size-22 margin-b-29">
+              The &lt;input&gt; tag specifies an input field where the user can
+              enter data. &lt;input&gt; element is the most important form
+              element. &lt;input&gt; element can be displayed in several ways,
+              depending on the type attribute.
+            </p>
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="d-flex align-center">
+                <input type="text" class="input-search" placeholder="Search" />
+                <div class="btn-search outline-green">Search</div>
+              </div>
+            </div>
+            <div class="bg-light-gray margin-t-30">
+              <pre class="width-330">
+        <code>
+&lt;div class=&quot;d-flex align-center&quot;&gt;
+  &lt;input type=&quot;text&quot; class=&quot;input-search&quot; placeholder=&quot;Search&quot; /&gt;
+  &lt;div class=&quot;btn-search outline-green&quot;&gt;Search&lt;/div&gt;
+&lt;/div&gt;
+        </code>
+    </pre>
+            </div>
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="d-flex align-center">
+                <input type="text" class="input-email" placeholder="name" />
+                <div class="ending-email">@example.com</div>
+              </div>
+            </div>
+            <div class="bg-light-gray margin-t-30">
+              <pre class="width-330">
+        <code>
+&lt;div class=&quot;d-flex align-center&quot;&gt;
+  &lt;input type=&quot;text&quot; class=&quot;input-email&quot; placeholder=&quot;name&quot; /&gt;
+  &lt;div class=&quot;ending-email&quot;&gt;@example.com&lt;/div&gt;
+&lt;/div&gt;
+        </code>
+    </pre>
+            </div>
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="d-flex align-center">
+                <input type="file" class="input-file" />
+              </div>
+            </div>
+            <div class="bg-light-gray margin-t-30">
+              <pre class="width-330">
+        <code>
+&lt;div class=&quot;d-flex align-center&quot;&gt;
+ &lt;input type=&quot;file&quot; class=&quot;input-file&quot; /&gt;
+&lt;/div&gt;
+        </code>
+    </pre>
+            </div>
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="d-flex align-center">
+                <input type="url" class="input-url" placeholder="https://" />
+                <div class="btn-url">Search</div>
+              </div>
+            </div>
+            <div class="bg-light-gray margin-t-30">
+              <pre class="width-330">
+        <code>
+&lt;div class=&quot;d-flex align-center&quot;&gt;
+  &lt;input type=&quot;url&quot; class=&quot;input-url&quot; placeholder=&quot;https://&quot; /&gt;
+  &lt;div class=&quot;btn-url&quot;&gt;Search&lt;/div&gt;
+&lt;/div&gt;
+        </code>
+    </pre>
+            </div>
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="d-flex align-center">
+                <input type="tel" class="input-tel" placeholder="+370" />
+                <div class="btn-tel">Send</div>
+              </div>
+            </div>
+            <div class="bg-light-gray margin-t-30">
+              <pre class="width-330">
+        <code>
+&lt;div class=&quot;d-flex align-center&quot;&gt;
+  &lt;input type=&quot;tel&quot; class=&quot;input-tel&quot; placeholder=&quot;+370&quot; /&gt;
+  &lt;div class=&quot;btn-tel&quot;&gt;Send&lt;/div&gt;
+&lt;/div&gt;
+        </code>
+    </pre>
+            </div>
+          </article>
+        </div>
+        <!-- Pagination --------------------------------- -->
+        <div class="container">
+          <article
+            class="margin-l-100 margin-t-30 margin-r-100"
+            id="pagination"
+          >
+            <h2 class="text-size-36">Pagination</h2>
+            <p class="text-size-22 margin-b-29">
+              Documentation and examples for showing pagination to indicate a
+              series of related content exists across multiple pages.
+            </p>
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="d-flex">
+                <a href="#" class="page">Previous</a>
+                <a href="#" class="page">1</a>
+                <a href="#" class="page">2</a>
+                <a href="#" class="page">3</a>
+                <a href="#" class="page">Next</a>
+              </div>
+            </div>
+            <div class="bg-light-gray margin-t-30">
+              <pre class="width-330">
+        <code>
+&lt;div class=&quot;d-flex&quot;&gt;
+  &lt;a href=&quot;#&quot; class=&quot;page&quot;&gt;Previous&lt;/a&gt;
+  &lt;a href=&quot;#&quot; class=&quot;page&quot;&gt;1&lt;/a&gt;
+  &lt;a href=&quot;#&quot; class=&quot;page&quot;&gt;2&lt;/a&gt;
+  &lt;a href=&quot;#&quot; class=&quot;page&quot;&gt;3&lt;/a&gt;
+  &lt;a href=&quot;#&quot; class=&quot;page&quot;&gt;Next&lt;/a&gt;
+&lt;/div&gt;
+        </code>
+    </pre>
+            </div>
+          </article>
+        </div>
+        <!-- Progress bars ------------------------------- -->
+        <div class="container">
+          <article
+            class="margin-l-100 margin-t-30 margin-r-100"
+            id="progress-bar"
+          >
+            <h2 class="text-size-36">Progress bar</h2>
+            <p class="text-size-22 margin-b-29">
+              Custom progress bars featuring support for stacked bars, animated
+              backgrounds, and text labels.
+            </p>
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="progress">
+                <div
+                  class="progress-inside"
+                  style="width: 74%; background-color: aqua"
+                ></div>
+              </div>
+            </div>
+            <div class="bg-light-gray margin-t-30">
+              <pre class="width-330">
+        <code>
+&lt;div class=&quot;progress&quot;&gt;
+  &lt;div
+    class=&quot;progress-inside&quot;
+    style=&quot;width: 74%; background-color: aqua&quot;
+  &gt;&lt;/div&gt;
+&lt;/div&gt;
+        </code>
+    </pre>
+            </div>
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="progress">
+                <div
+                  class="progress-inside"
+                  style="width: 49%; background-color: rgb(1, 90, 163)"
+                ></div>
+                <div class="progress-left" style="width: 51%">51% left</div>
+              </div>
+            </div>
+            <div class="bg-light-gray margin-t-30">
+              <pre class="width-330">
+        <code>
+&lt;div class=&quot;progress&quot;&gt;
+  &lt;div
+    class=&quot;progress-inside&quot;
+    style=&quot;width: 49%; background-color: rgb(1, 90, 163)&quot;
+    &gt;&lt;/div&gt;
+  &lt;div class=&quot;progress-left&quot; style=&quot;width: 51%&quot;&gt;51% left&lt;/div&gt;
+&lt;/div&gt;
+        </code>
+    </pre>
+            </div>
+          </article>
+        </div>
+        <!-- Spinners ------------------------------------ -->
+        <div class="container">
+          <article class="margin-l-100 margin-t-30 margin-r-100" id="spinners">
+            <h2 class="text-size-36">Spinners</h2>
+            <p class="text-size-22 margin-b-29">
+              Indicate the loading state of a component or page with BootPepper
+              spinners, built entirely with HTML, CSS, and no JavaScript.
+            </p>
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="spinner">
+                <div
+                  class="spinner-image"
+                  style="background-image: url(/trump.png)"
+                ></div>
+              </div>
+              <div class="spinner">
+                <div
+                  class="spinner-image"
+                  style="background-image: url(/banana.png)"
+                ></div>
+              </div>
+              <div class="spinner">
+                <div
+                  class="spinner-image"
+                  style="background-image: url(/baby-yoda-2.png)"
+                ></div>
+              </div>
+              <div class="spinner">
+                <div
+                  class="spinner-image"
+                  style="background-image: url(/earth.png)"
+                ></div>
+              </div>
+              <div class="spinner">
+                <div
+                  class="spinner-image"
+                  style="background-image: url(/dalailama.png)"
+                ></div>
+              </div>
+            </div>
+            <div class="bg-light-gray margin-t-30">
+              <pre class="width-330">
+        <code>
+&lt;div class=&quot;spinner&quot;&gt;
+  &lt;div
+  class=&quot;spinner-image&quot;
+  style=&quot;background-image: url(/trump.png)&quot;
+  &gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;spinner&quot;&gt;
+  &lt;div
+    class=&quot;spinner-image&quot;
+    style=&quot;background-image: url(/banana.png)&quot;
+  &gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;spinner&quot;&gt;
+  &lt;div
+    class=&quot;spinner-image&quot;
+    style=&quot;background-image: url(/baby-yoda-2.png)&quot;
+  &gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;spinner&quot;&gt;
+  &lt;div
+    class=&quot;spinner-image&quot;
+    style=&quot;background-image: url(/earth.png)&quot;
+  &gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;spinner&quot;&gt;
+  &lt;div
+    class=&quot;spinner-image&quot;
+    style=&quot;background-image: url(/dalailama.png)&quot;
+  &gt;&lt;/div&gt;
+&lt;/div&gt;
+        </code>
+    </pre>
+            </div>
+          </article>
+        </div>
+        <!-- Padding ---------------------------------- -->
+        <div class="container">
+          <article class="margin-l-100 margin-t-30 margin-r-100" id="padding">
+            <h2 class="text-size-36">Padding</h2>
+            <p class="text-size-22 margin-b-29">
+              Padding is used to create space around an element's content, inside of any defined borders.
+            </p>
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="around">
+                <div class="padding-1 bg-gray"></div>
+              </div>
+              <div class="around">
+                <div class="padding-2 bg-gray"></div>
+              </div>
+              <div class="around">
+                <div class="padding-3 bg-gray"></div>
+              </div>
+              <div class="around">
+                <div class="padding-4 bg-gray"></div>
+              </div>
+          </div>
+              
+            <div class="bg-light-gray margin-t-30">
+              <pre class="width-330">
+        <code>
+          padding: 10px
+&lt;div class=&quot;around&quot;&gt;
+  &lt;div class=&quot;padding-1 bg-gray&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+          padding: 20px
+&lt;div class=&quot;around&quot;&gt;
+  &lt;div class=&quot;padding-2 bg-gray&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+          padding: 30px
+&lt;div class=&quot;around&quot;&gt;
+  &lt;div class=&quot;padding-3 bg-gray&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+          padding: 40px
+&lt;div class=&quot;around&quot;&gt;
+  &lt;div class=&quot;padding-4 bg-gray&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+        </code>
+    </pre>
+            </div>
+          </article>
+        </div>
+        <!-- Margin -------------------------------- -->
+        <div class="container">
+          <article class="margin-l-100 margin-t-30 margin-r-100" id="margin">
+            <h2 class="text-size-36">Margin</h2>
+            <p class="text-size-22 margin-b-29">
+              Margins are used to create space around elements, outside of any defined borders.
+            </p>
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="around">
+                <div class="bg-gray margin-1" style="width: 100%; height: -webkit-fill-available;"></div>
+              </div>
+              <div class="around">
+                <div class="bg-gray margin-2" style="width: 100%; height: -webkit-fill-available;"></div>
+              </div>
+              <div class="around">
+                <div class="bg-gray margin-3" style="width: 100%; height: -webkit-fill-available;"></div>
+              </div>
+              <div class="around">
+                <div class="bg-gray margin-4" style="width: 100%; height: -webkit-fill-available;"></div>
+              </div>
+          </div>
+              
+            <div class="bg-light-gray margin-t-30">
+              <pre class="width-330">
+        <code>
+          margin: 10px
+&lt;div class=&quot;around&quot;&gt;
+  &lt;div class=&quot;bg-gray margin-1&quot; style=&quot;width: 100%; height: -webkit-fill-available;&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+          margin: 20px
+&lt;div class=&quot;around&quot;&gt;
+  &lt;div class=&quot;bg-gray margin-2&quot; style=&quot;width: 100%; height: -webkit-fill-available;&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+          margin: 30px
+&lt;div class=&quot;around&quot;&gt;
+  &lt;div class=&quot;bg-gray margin-3&quot; style=&quot;width: 100%; height: -webkit-fill-available;&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+          margin: 40px
+&lt;div class=&quot;around&quot;&gt;
+  &lt;div class=&quot;bg-gray margin-4&quot; style=&quot;width: 100%; height: -webkit-fill-available;&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+        </code>
+    </pre>
+            </div>
+          </article>
+        </div>
+        <!-- Sizing ------------------------------------ -->
+        <div class="container">
+          <article class="margin-l-100 margin-t-30 margin-r-100" id="sizing">
+            <h2 class="text-size-36">Width & Height</h2>
+            <p class="text-size-22 margin-b-29">
+              The CSS height and width properties are used to set the height and width of an element.
+            </p>
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="around">
+                <div class="width-25 height-25 bg-gray"></div>
+              </div>
+              <div class="around">
+                <div class="width-50 height-50 bg-gray"></div>
+              </div>
+              <div class="around">
+                <div class="width-75 height-75 bg-gray"></div>
+              </div>
+              <div class="around">
+                <div class="width-100 height-100 bg-gray"></div>
+              </div>
+          </div>
+              
+            <div class="bg-light-gray margin-t-30">
+              <pre class="width-330">
+        <code>
+          25% width 25% height
+&lt;div class=&quot;around&quot;&gt;
+  &lt;div class=&quot;width-25 height-25 bg-gray&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+          50% width 50% height
+&lt;div class=&quot;around&quot;&gt;
+  &lt;div class=&quot;width-50 height-50 bg-gray&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+          75% width 75% height
+&lt;div class=&quot;around&quot;&gt;
+  &lt;div class=&quot;width-75 height-75 bg-gray&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+          100% width 100% height
+&lt;div class=&quot;around&quot;&gt;
+  &lt;div class=&quot;width-100 height-100 bg-gray&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+        </code>
+    </pre>
+            </div>
+          </article>
+        </div>
+        <!-- Borders ------------------------------------ -->
+        <div class="container">
+          <article class="margin-l-100 margin-t-30 margin-r-100" id="borders">
+            <h2 class="text-size-36">Borders</h2>
+            <p class="text-size-22 margin-b-29">
+              The CSS border properties allow you to specify the style, width, and color of an element's border.
+            </p>
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="box border"></div>
+              <div class="box border-dotted"></div>
+              <div class="box border-dashed"></div>
+              <div class="box border-double"></div>
+          </div>
+              
+            <div class="bg-light-gray margin-t-30">
+              <pre class="width-330">
+        <code>
+&lt;div class=&quot;box border&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;box border-dotted&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;box border-dashed&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;box border-double&quot;&gt;&lt;/div&gt;
+        </code>
+    </pre>
+            </div>
+          </article>
+        </div>
+        <!-- text color ------------------------------------ -->
+        <div class="container">
+          <article class="margin-l-100 margin-t-30 margin-r-100" id="font-color">
+            <h2 class="text-size-36">Text color</h2>
+            <p class="text-size-22 margin-b-29">
+              Specifies the text color.
+            </p>
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="around text-center"><p>This text is regular</p></div>
+              <div class="around text-center"><p class="text-red">This text is red</p></div>
+              <div class="around text-center"><p class="text-blue">This text is blue</p></div>
+              <div class="around text-center bg-black"><p class="text-white">This text is white</p></div>
+
+          </div>
+              
+            <div class="bg-light-gray margin-t-30">
+              <pre class="width-330">
+        <code>
+&lt;div class=&quot;around text-center&quot;&gt;&lt;p&gt;This text is regular&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;around text-center&quot;&gt;&lt;p class=&quot;text-red&quot;&gt;This text is red&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;around text-center&quot;&gt;&lt;p class=&quot;text-blue&quot;&gt;This text is blue&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;around text-center bg-black&quot;&gt;&lt;p class=&quot;text-white&quot;&gt;This text is white&lt;/p&gt;&lt;/div&gt;
+        </code>
+    </pre>
+            </div>
+          </article>
+        </div>
+        <!-- Bg - color --------------------------------- -->
+        <div class="container">
+          <article class="margin-l-100 margin-t-30 margin-r-100" id="bg-color">
+            <h2 class="text-size-36">Background color</h2>
+            <p class="text-size-22 margin-b-29">
+              Specifies the background color.
+            </p>
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="around bg-gray"></div>
+              <div class="around bg-black"></div>
+              <div class="around bg-gradient"></div>
+              <div class="around bg-gradient-green"></div>
+
+          </div>
+              
+            <div class="bg-light-gray margin-t-30">
+              <pre class="width-330">
+        <code>
+&lt;div class=&quot;around bg-gray&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;around bg-black&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;around bg-gradient&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;around bg-gradient-green&quot;&gt;&lt;/div&gt;
+        </code>
+    </pre>
+            </div>
+          </article>
+        </div>
+        <!-- flex ----------------------------- -->
+        <div class="container">
+          <article class="margin-l-100 margin-t-30 margin-r-100" id="flex">
+            <h2 class="text-size-36">Flex alignment</h2>
+            <p class="text-size-22 margin-b-29">
+              The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
+            </p>
+            <div
+              class="border-light padding-20 border-radius-4 d-flex justify-between"
+            >
+              <div class="around-empty d-flex align-center justify-end bg-light-gray">
+                <div class="box-small bg-gradient-green"></div>
+              </div>
+              <div class="around-empty d-flex align-center justify-between bg-light-gray">
+                <div class="box-small bg-gradient-green"></div>
+                <div class="box-small bg-gradient-green"></div>
+              </div>
+              <div class="around-empty d-flex flex-column align-center justify-between bg-light-gray">
+                <div class="box-small bg-gradient-green"></div>
+                <div class="box-small bg-gradient-green"></div>
+              </div>
+              <div class="around-empty d-flex align-center flex-wrap justify-center bg-light-gray">
+                <div class="box-small bg-gradient-green"></div>
+                <div class="box-small bg-gradient-green"></div>
+                <div class="box-small bg-gradient-green"></div>
+                <div class="box-small bg-gradient-green"></div>
+              </div>
+
+          </div>
+              
+            <div class="bg-light-gray margin-t-30">
+              <pre class="width-330">
+        <code>
+&lt;div class=&quot;around-empty d-flex align-center justify-end bg-light-gray&quot;&gt;
+  &lt;div class=&quot;box-small bg-gradient-green&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;around-empty d-flex align-center justify-between bg-light-gray&quot;&gt;
+  &lt;div class=&quot;box-small bg-gradient-green&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;box-small bg-gradient-green&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;around-empty d-flex flex-column align-center justify-between bg-light-gray&quot;&gt;
+  &lt;div class=&quot;box-small bg-gradient-green&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;box-small bg-gradient-green&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;around-empty d-flex align-center flex-wrap justify-center bg-light-gray&quot;&gt;
+  &lt;div class=&quot;box-small bg-gradient-green&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;box-small bg-gradient-green&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;box-small bg-gradient-green&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;box-small bg-gradient-green&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+        </code>
+    </pre>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
